@@ -1,0 +1,857 @@
+/**********Goolge fonts link*************/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900,900i');
+
+/********** Global css *************/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: lato;
+}
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.btn-primary{
+	background: transparent;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    padding: 10px 15px;
+    transition: 0.2s ease-in-out;
+}
+.btn-primary:hover{
+	background: #15a4fa;
+	transition: 0.2s ease-in-out;
+    color: #fff;
+    padding: 10px 15px;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+}
+
+
+
+
+
+
+/********** Global css *************/
+
+
+
+/********** Header part css *************/
+
+header{
+	background: #f6f9f9;
+	float: left; 
+}
+.logo-part{
+	width: 15%;
+	float: left;
+}
+.logo-part img{
+	width: 100%;
+	padding: 10px 0px;
+}
+.navbar-part{
+	width: 85%;
+	float: left;
+}
+
+/********** Header part css *************/
+
+
+/********** Banner section css *************/
+
+.banner-section{
+	background: url(../images/banner.png) top no-repeat;
+	background-size: cover;
+	text-align: center;
+    padding: 150px 0px 30px;
+}
+.banner-text{
+	padding: 80px 0px 0px;
+}
+.banner-text h1{
+	text-transform: uppercase;
+    font-size: 100px;
+    color: #fff;
+    padding: 0px 0px 20px;
+}
+.banner-text p{
+	color: #fff;
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+.banner-line{
+	width: 50%;
+    border: 1px solid #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.banner-down-arrow{
+	color: #fff;
+    font-size: 20px;
+    padding: 200px 0px 15px;
+}
+
+/********** Banner section css *************/
+
+
+/********** About section css *************/
+
+.about-section{
+    background: #f6f9f9;
+}
+.about-section-text{
+	text-align: center;
+	padding: 70px 0px;
+}
+.about-section-text h2{
+	color: #2d3950;
+    font-size: 30px;
+    padding: 0px 0px 20px;
+}
+.about-section-text p{
+	color: #999999;
+}
+
+/********** About section css *************/
+
+
+/********** Feature section css *************/
+
+.feature-section{
+	padding: 100px 0px;
+	float: left;
+}
+.feature-box{
+	float: left;
+    width: 33.3333%;
+}
+.feature-box img{
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.feature-box h3{
+	padding-bottom: 25px;
+	color: #2d3950;
+}
+.feature-box p{
+	color: #999999;
+}
+.feature-text-part{
+	text-align: center;
+}
+.box-one{
+
+}
+.box-two{
+	
+}
+.box-three{
+	
+}
+
+/********** Feature section css *************/
+
+
+/********** showcase section css *************/
+
+.showcase-section{
+    float: left;
+    background: #f6f9f9;
+    padding: 70px 0px;
+}
+.showcase-text{
+	text-align: center;
+}
+.showcase-text h2{
+	color: #2d3950;
+	font-size: 35px;
+	padding: 0px 0px 12px;
+}
+.showcase-text p{
+	color: #999999;
+}
+.showcase-images-part{
+	padding: 50px 0px;
+}
+.showcase-rows{
+
+}
+.showcase-first-row{
+	float: left;
+}
+.showcase-second-row{
+	float: left;
+}
+.showcase-photo{
+	float: left;
+    margin: 7px;
+    position: relative;
+    width: 32%;
+}
+.showcase-photo img{
+	width: 100%;
+    display: block;
+}
+.image-hover-div{
+	position: absolute;
+    background: #48baff;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .2s ease-in-out;
+}
+.hover-div-icons{
+
+}
+.image-hover-div:hover{
+	position: absolute;
+    background: #48baff;
+    opacity: 0.8;
+    transition: .2s ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*.hover-div-icons ul a{
+	background: #000;
+}*/
+.image-hover-div ul{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-hover-div ul li{
+	display: inline;
+    color: #fff;
+    background: rgba(197, 239, 247, 0.5);
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    border: 1px solid #fff;
+}
+.image-hover-div ul li:hover{
+	display: inline;
+    color: #fff;
+    background: #48baff;
+    opacity: 1;
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    border: 1px solid #fff;
+}
+/********** showcase section css *************/
+
+
+/********** Contact section css *************/
+
+.contact-section{
+	background: url(../images/contact-section-banner.png) center no-repeat;
+	background-size: cover; 
+	float: left;
+	padding: 40px 0px 100px;
+}
+.contact-form{
+
+}
+.contact-form-text{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.contact-form-text h2{
+	color: #fff;
+	font-size: 35px;
+	padding: 0px 0px 10px;
+}
+.contact-form-text p{
+	color: #999;
+}
+.form-control{
+	text-align: center;
+}
+.form-group{
+	width: 100%;
+    margin: 10px 0px;
+    float: left;
+}
+.form-group textarea{
+	height: 110px;
+}
+.subscribe{
+	padding-left: 10px;
+	color: #fff;
+}
+.checkbox{
+ 	float: left;
+}
+.login-checkbox{
+	width: 42%;
+	margin: 0 auto;
+	padding: 0px;
+}
+.send-button{
+	margin-left: 180px;
+    padding: 10px 45px;
+    border-radius: 3px;
+}
+.send-button:hover{
+	margin-left: 180px;
+    padding: 10px 45px;
+    border-radius: 3px;
+}
+.form-input{
+	width: 40%;
+    border: 1px solid #f6f9f9;
+    background: transparent;
+    color: #999999;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+/********** Contact section css *************/
+
+
+
+/********** Footer section css *************/
+
+footer{
+	background:#f6f9f9;
+	float: left;
+
+}
+.footer-content{
+	padding: 35px;
+}
+.footer-left{
+	float: left;
+}
+.footer-left p{
+	color: #999999;
+}
+.footer-right{
+	float: right;
+	padding-bottom: 30px;
+}
+.footer-right ul{
+	
+}
+.footer-right ul li{
+	display: inline-block;
+    margin-right: 5px;
+    background: #15a4fa;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.footer-right ul li a{
+	color: #fff;
+    font-size: 16px;
+}
+.facebook:hover{
+	background:#3b5998;
+	transition: 0.2s ease-in-out; 
+}
+.twitter:hover{
+	background:#55acee;
+	transition: 0.2s ease-in-out; 
+}
+.googleplus:hover{
+	background:#dd4b39;
+	transition: 0.2s ease-in-out; 
+}
+.linkedin:hover{
+	background:#0976b4;
+	transition: 0.2s ease-in-out; 
+}
+/********** Footer section css *************/
+
+
+
+
+/***************************** Media quary(For tablet device) starts form here *********************************/
+
+
+/********** Media quary starts form here *************/
+
+/********** For mobile device **********/
+@media (min-width: 501px) and (max-width: 768px){
+
+	/********** Global css **********/
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+	/********** Header section media quary goes here *************/
+
+
+.logo-part{
+	width: 30%;
+}
+.logo-part img {
+	padding: 10px;
+    width: 100%;
+}
+.navbar-part{
+	width: 70%;
+	float: left;
+}
+
+
+	/********** Header section media quary goes here *************/
+
+
+	/********** Banner section media quary goes here *************/
+
+.banner-section{
+	padding: 10px 0px 15px;
+}
+.banner-text {
+    padding: 100px 0px 0px;
+    margin-top: 15px;
+}
+.banner-text h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #fff;
+    padding: 0px 0px 10px;
+}
+.banner-line {
+    width: 80%;
+    border: 1px solid #15a4fa;
+    margin: 0 auto 20px;
+}
+.banner-text p {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.banner-down-arrow {
+    color: #fff;
+    font-size: 15px;
+    padding: 100px 0px 15px;
+}
+
+
+	/********** Banner section media quary goes here *************/
+
+
+	/********** About section media quary goes here *************/
+
+.about-section-text {
+    text-align: center;
+    padding: 30px 20px;
+}
+.about-section-text h2 {
+    font-size: 25px;
+    padding: 0px 0px 20px;
+}
+.about-section-text p {
+    color: #999999;
+    font-size: 14px;
+}
+
+	/********** About section media quary goes here *************/
+
+
+	/********** Feature section media quary goes here *************/
+
+.feature-section {
+    padding: 30px 0px 5px;
+    float: left;
+}
+.feature-box {
+    width: 100%;
+    margin: 20px auto;
+}
+.feature-box img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.feature-text-part {
+    text-align: center;
+    padding: 0px 40px;
+}
+.feature-box h3 {
+    padding-bottom: 10px;
+   font-size: 16px;
+    color: #2d3950;
+}
+.feature-box p {
+    color: #999999;
+    padding: 0px 0px 25px;
+    font-size: 14px;
+}
+
+
+
+	/********** Feature section media quary goes here *************/
+
+
+
+	/********** Showcase section media quary goes here *************/
+
+.showcase-section {
+    float: left;
+    background: #f6f9f9;
+    padding: 30px 0px;
+}
+.showcase-images-part {
+    padding: 35px 0px;
+	margin: 0px auto;
+	width: 90%;
+}
+.showcase-photo {
+    float: left;
+    margin: 5px auto;
+    position: relative;
+    width: 100%;
+}
+.showcase-text h2 {
+    color: #2d3950;
+    font-size: 25px;
+    padding: 0px 0px 10px;
+}
+.showcase-text p {
+    color: #999999;
+    font-size: 14px;
+}
+
+	/********** Showcase section media quary goes here *************/
+
+
+
+	/********** Contact Form section media quary goes here *************/
+
+.contact-section {
+    background: url(../images/contact-section-banner.png) center no-repeat;
+    background-size: auto;
+    background-size: cover;
+    float: left;
+    padding: 40px 0px 20px;
+}
+.contact-form-text h2 {
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 0px 10px;
+}
+.contact-form-text p {
+    color: #999;
+    font-size: 14px;
+}
+.form-input {
+    width: 70%;
+    border: 1px solid #f6f9f9;
+    background: transparent;
+    color: #999999;
+    padding: 10px;
+    border-radius: 3px;
+}
+.login-checkbox {
+    width: 75%;
+	margin: 0 auto;
+	padding: 0px;
+}
+.checkbox {
+    float: left;
+}
+.send-button {
+    margin: 25px 0px 30px auto;
+	padding: 10px 55px;
+	border-radius: 3px;
+	display: block;
+}
+.send-button:hover{
+    margin: 25px 0px 30px auto;
+	padding: 10px 55px;
+	border-radius: 3px;
+	display: block;
+}
+.subscribe {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+	/********** Contact Form section media quary goes here *************/
+
+
+
+	/********** Footer section media quary goes here *************/
+
+.footer-content {
+    padding: 25px;
+}
+.footer-left {
+    margin: 8px auto 10px;
+	float: left;
+	width: 50%;
+}
+.footer-left p {
+    color: #999999;
+    text-align: center;
+}
+.footer-right {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 25px;
+}
+
+}
+
+	/********** Footer section media quary goes here *************/
+
+/***************************** Media quary Ends here ****************************************/
+
+
+
+
+
+
+
+
+/***************************** Media quary starts form here *********************************/
+
+
+/********** Media quary starts form here *************/
+
+/********** For Tablet device **********/
+@media (min-width: 320px) and (max-width: 500px){
+
+	/********** Global css **********/
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+	/********** Header section media quary goes here *************/
+
+
+.logo-part{
+	width: 40%;
+}
+.logo-part img {
+	padding: 10px;
+    width: 100%;
+}
+.navbar-part{
+	width: 60%;
+	float: left;
+}
+
+
+	/********** Header section media quary goes here *************/
+
+
+	/********** Banner section media quary goes here *************/
+
+.banner-section{
+	padding: 10px 0px 15px;
+}
+.banner-text {
+    padding: 100px 0px 0px;
+    margin-top: 15px;
+}
+.banner-text h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #fff;
+    padding: 0px 0px 10px;
+}
+.banner-line {
+    width: 80%;
+    border: 1px solid #15a4fa;
+    margin: 0 auto 20px;
+}
+.banner-text p {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.banner-down-arrow {
+    color: #fff;
+    font-size: 15px;
+    padding: 100px 0px 15px;
+}
+
+
+	/********** Banner section media quary goes here *************/
+
+
+	/********** About section media quary goes here *************/
+
+.about-section-text {
+    text-align: center;
+    padding: 30px 20px;
+}
+.about-section-text h2 {
+    font-size: 20px;
+    padding: 0px 0px 20px;
+}
+.about-section-text p {
+    color: #999999;
+    font-size: 13px;
+}
+
+	/********** About section media quary goes here *************/
+
+
+	/********** Feature section media quary goes here *************/
+
+.feature-section {
+    padding: 30px 0px 5px;
+    float: left;
+}
+.feature-box {
+    width: 100%;
+    margin: 20px auto;
+}
+.feature-box img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.feature-text-part {
+    text-align: center;
+    padding: 0px 40px;
+}
+.feature-box h3 {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #2d3950;
+}
+.feature-box p {
+    color: #999999;
+    padding: 0px 0px 25px;
+    font-size: 14px;
+}
+
+
+
+	/********** Feature section media quary goes here *************/
+
+
+
+	/********** Showcase section media quary goes here *************/
+
+.showcase-section {
+    float: left;
+    background: #f6f9f9;
+    padding: 30px 0px;
+}
+.showcase-images-part {
+    padding: 35px 0px;
+    margin: 0px 10px;
+}
+.showcase-photo {
+    float: left;
+    margin: 5px auto;
+    position: relative;
+    width: 100%;
+}
+.showcase-text h2 {
+    color: #2d3950;
+    font-size: 20px;
+    padding: 0px 0px 10px;
+}
+.showcase-text p {
+    color: #999999;
+    font-size: 14px;
+}
+
+	/********** Showcase section media quary goes here *************/
+
+
+
+	/********** Contact Form section media quary goes here *************/
+
+.contact-section {
+    background: url(../images/contact-section-banner.png) center no-repeat;
+    background-size: auto;
+    background-size: cover;
+    float: left;
+    padding: 40px 0px 20px;
+}
+.contact-form-text h2 {
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 0px 10px;
+}
+.contact-form-text p {
+    color: #999;
+    font-size: 14px;
+}
+.form-input {
+    width: 70%;
+    border: 1px solid #f6f9f9;
+    background: transparent;
+    color: #999999;
+    padding: 10px;
+    border-radius: 3px;
+}
+.login-checkbox {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px;
+}
+.checkbox {
+    float: none;
+}
+.send-button {
+    margin: 25px auto;
+    padding: 10px 55px;
+    border-radius: 3px;
+}
+.send-button:hover{
+    margin: 25px auto;
+    padding: 10px 55px;
+    border-radius: 3px;
+}
+.subscribe {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+	/********** Contact Form section media quary goes here *************/
+
+
+
+	/********** Footer section media quary goes here *************/
+
+.footer-content {
+    padding: 25px;
+}
+.footer-left {
+    margin: 0px auto 10px;
+    float: left;
+    width: 100%;
+}
+.footer-left p {
+    color: #999999;
+    text-align: center;
+}
+.footer-right {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+	/********** Footer section media quary goes here *************/
+
+/***************************** Media quary Ends here ****************************************/
